@@ -1,0 +1,15 @@
+#dashboard{
+    margin: 2em;
+    .table{
+        tr{
+            border-bottom: 1px solid #efefef;
+        th, td{
+            line-height: 40px;
+            padding: 0 .5em;
+        }
+        th{
+            background: #efefef;
+        }
+        }
+    }
+}
