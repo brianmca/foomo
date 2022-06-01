@@ -1,0 +1,22 @@
+#header {
+    background: #ff00bb;
+    color: #fff;
+    height: 120px;
+    line-height: 60px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+border-bottom: 1px solid #efefef;
+    #title-bar {
+        #brand {
+            padding-left: 20px;
+            #logo {
+                font-size: 2em;
+            }
+        }
+    }
+    #context-bar {
+        background: #fff;
+        height: 60px;
+    }
+}

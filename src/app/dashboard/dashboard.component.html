@@ -1,1 +1,17 @@
-<p>dashboard works!</p>
+<div id="dashboard">
+<a class="btn btn-primary">Add Expense</a>
+    <table  class="table table-success table-striped">
+        <tr><th></th>
+            <th *ngFor="let month of months">
+                {{month}}
+            </th>
+        </tr>
+        <tr  *ngFor="let expense of expenses">
+            <th>{{expense.title}}</th>
+
+            <td *ngFor="let item of expense.items">
+                {{item}}
+            </td>
+        </tr>
+    </table>
+</div>
